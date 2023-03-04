@@ -1,5 +1,16 @@
 package Sorv;
 
+/*		O código encontra o número mais frequente em um array usando um Map. 
+	Eple começa definindo um array de votos e chama a função numeroMaisFrequente() 
+	ara encontrar o número de sorvete mais votado.
+
+		A função numeroMaisFrequente() itera pelos votos, mantém uma contagem do número de vezes que cada 
+	número aparece usando um TreeMap e,a cada iteração, verifica se o número atual tem uma contagem maior
+	do que o número de contagem atual. Se sim, o número mais frequente é atualizado para o novo número
+	e a contagem é atualizada. Se houver um empate, o número mais baixo é selecionado. Por fim, a função
+	retorna o número mais frequente encontrado.
+*/
+
 import java.util.Map;
 import java.util.TreeMap;
 
