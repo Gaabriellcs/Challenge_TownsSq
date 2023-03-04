@@ -1,7 +1,7 @@
 package Sorv;
 
 /*		O código encontra o número mais frequente em um array usando um Map. Ele começa definindo um array
-de votos e chama a função numeroMaisFrequente() para encontrar o número de sorvete mais votado.
+        de votos e chama a função numeroMaisFrequente() para encontrar o número de sorvete mais votado.
 
 		A função numeroMaisFrequente() itera pelos votos, mantém uma contagem do número de vezes que cada 
 	número aparece usando um TreeMap e,a cada iteração, verifica se o número atual tem uma contagem maior
